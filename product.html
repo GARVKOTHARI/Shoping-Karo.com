@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang= "en">
+    <head>
+        <meta charset= "UTF-8">
+
+        <meta name= "viewport" content= "width= device-width, initial-scale = 1.0">
+
+        <title>Shopingkaro.com</title>
+
+        <link rel= "stylesheet" href= "style.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" 
+rel="stylesheet">
+
+<link rel= "stylesheet" href= "https://cdn.jsdelivr.net/npm/@fortawesome/
+fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+
+    </head>
+
+    <body>
+
+        <div class= "header">
+        <div class= "container">
+       <div class= "navbar">
+           <div class= "logo">
+               <img src= "logo.png" width="125px">
+           </div>
+           <nav>
+               <ul id= "MenuItems">
+                   <li><a href= ""> HOME </a></li>
+                   <li><a href= "">PRODUCTS</a>  </li>
+                   <li><a href= "">ABOUT</a>  </li>
+                   <li><a href= "">CONTACT</a>  </li>
+                   <li><a href= "">ACCOUNT</a> </li>
+               </ul>
+           </nav>
+           <img src= "cart.png" width= "30px" height= "30px">
+           <img src= "menu.png" class= "menu-icon" onclick= "menutoggle()">
+       </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<!--------featured products---------->
+
+       <div class= "small-container">
+           <h2 class="title"> Featured Products </h2>
+           <div class= "row">
+              <div class= "col-4">
+                  <img id= "img-1" src= "buy-1.jpg" onclick="buy_now()">
+                  <h4>RED PRINTED T-SHIRTS</h4>
+                  
+
+                  <div class= "rating">
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star-o"></i>
+
+                 </div>
+                  <p>₹500.00</p>
+              </div>
+              <div class= "col-4">
+                <img id= "img" src= "product-2.jpg">
+                <h4>SHOES</h4>
+                <div class= "rating">
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+            <div class= "col-4">
+                <img id= "img-0" src= "product-3.jpg">
+                <h4>BLACK TROUSER</h4>
+                <div class= "rating">
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+            <div class= "col-4">
+                <img id= "img-1" src= "product-4.jpg">
+                <h4>BLUE SHIRT</h4>
+                <div class= "rating">
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+        </div>
+       
+        <h2 class= "title">Latest Products</h2>
+        <div class= "row">
+            <div class= "col-4">
+                <img id= "img-2" src= "product-5.jpg">
+                <h4>WHITE BRANDED SHOES</h4>
+                <div class= "rating">
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star-o"></i>
+                </div>
+                <p>₹800.00</p>
+            </div>
+            <div class= "col-4">
+              <img id= "img-3" src= "product-6.jpg">
+              <h4>BLACK SHIRT</h4>
+              <div class= "rating">
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star-o"></i>
+              </div>
+              <p>₹600.00</p>
+          </div>
+          <div class= "col-4">
+              <img id= "img-4" src= "product-7.jpg">
+              <h4> SOCKS </h4>
+              <div class= "rating">
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star-o"></i>
+              </div>
+              <p>₹100.00</p>
+          </div>
+          <div class= "col-4">
+              <img id= "img-5" src= "product-8.jpg">
+              <h4>BLACK WATCH</h4>
+              <div class= "rating">
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star-o"></i>
+              </div>
+              <p>₹1500.00</p>
+          </div>
+      </div>
+
+      
+        <div class= "row">
+            <div class= "col-4">
+                <img id= "img-6" src= "product-9.jpg">
+                <h4>BLACK ROADSTER WATCH</h4>
+                <div class= "rating">
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star"></i>
+                    <i class= "fa fa-star-o"></i>
+                </div>
+                <p>₹2500.00</p>
+            </div>
+            <div class= "col-4">
+              <img id= "img-7" src= "product-10.jpg">
+              <h4> BLACK BRANDED SHOES </h4>
+              <div class= "rating">
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star-o"></i>
+              </div>
+              <p>₹1200.00</p>
+          </div>
+          <div class= "col-4">
+              <img id= "img-8" src= "product-11.jpg">
+              <h4> WHITE WOMEN SHOES </h4>
+              <div class= "rating">
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star"></i>
+                  <i class= "fa fa-star-o"></i>
+              </div>
+              <p>₹800.00</p>
+          </div>
+          <div class= "col-4">
+              <img id= "img-9" src= "product-12.jpg">
+              <h4>BLACK NIKE TROUSER</h4>
+              <div class= "rating">
+                <i class= "fa fa-star"></i>
+                <i class= "fa fa-star"></i>
+                <i class= "fa fa-star"></i>
+                <i class= "fa fa-star"></i>
+                <i class= "fa fa-star-o"></i>
+              </div>
+              <p>₹300.00</p>
+          </div>
+      </div>
+
+    </div>
+
+
+    <!---------- offer ----------->
+
+    <div class= "offer">
+        <div class= "small-container">
+            <div class= "row">
+                <div class="col-2">
+                    <img  src= "exclusive.png" class="offer-img">
+                </div>
+                <div class= "col-2">
+                    <p>Exclusive Available On Red Store</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The MI Smart Band 4 Features a 39.9% Larger (Than MI Band 3) 
+                        Amoled Colour full-touch display with adjustable Brightness ,
+                         so Everything is clear as Can Be.
+                    </small>
+                    <br>
+
+                    <a href= "" class= "btn"> BUY NOW &#8594;</a>
+
+                    
+               </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+         <div class="container">
+             <div class="row">
+                 <div class="footer-col-1">
+                     <h3>Download Our App</h3>
+                     <p>Download App for Android and IOS Mobile</p>
+
+                      <div class="app-logo">
+                          <img src= "play-store.png" onclick= "app_store()">
+                          <img src= "app-store.png" onclick= "play_store()"> 
+                      </div>
+
+                 </div>
+
+                 <div class="footer-col-1">
+                    <img  src= "logo-white.png">
+                    <p> Our Purpose is to sustainbly Make The Pleasure 
+                        and Benefits of sports Accessible To The Many
+                    </p>
+                </div>
+
+             </div>
+
+             <hr>
+
+              <p class= "copyright">Copyright 2021 - Garv Kothari</p>
+
+
+         </div>
+     </div>
+
+     <script>
+         var MenuItems = document.getElementById("MenuItems");
+
+         MenuItems.style.maxHeight = "0px";
+
+         function menutoggle() {
+             if(MenuItems.style.maxHeight == "0px")
+             {
+                MenuItems.style.maxHeight = "200px"
+             }
+
+             else {
+                MenuItems.style.maxHeight = "0px"
+             }
+         }
+
+         function buy_now() {
+             window.location = "product-details.html"
+         }
+
+         function app_store() {
+             window.location = "https://x.thunkable.com/projects/60c095fb017ce20a2b27b082/f8f8047b-e367-4467-b25a-2f4bd45ba724/designer"
+         }
+
+         function play_store() {
+             window.location = "https://x.thunkable.com/projects/60c095fb017ce20a2b27b082/f8f8047b-e367-4467-b25a-2f4bd45ba724/designer"
+         }
+     </script>
+
+</body>
+</html>
